@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boeken xmlns="http://beta.ua.ac.be/boeken" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://beta.ua.ac.be/boeken  oef3.xsd">
+<boek>
+    <jaartal>1999</jaartal>
+    <titel>Catcher in the Rye</titel>
+    <auteurs>
+        <naam>Jefke</naam>
+        <geslacht>m</geslacht>
+    </auteurs>
+</boek>
+</boeken>

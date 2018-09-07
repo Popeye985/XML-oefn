@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<namen xmlns="http://www.betavzw.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.betavzw.org test.xsd">
+    <naam>
+        <voornaam>Karen</voornaam>
+        <achternaam>Damen</achternaam>
+        <geboortedatum nationaliteit="B">1974-10-28</geboortedatum>
+    </naam>
+
+    <naam>
+        <voornaam>Kristel</voornaam>
+        <achternaam>Aerts</achternaam>
+        <geboortedatum>1975-12-10</geboortedatum>
+    </naam>
+    <naam>
+        <voornaam>Josje</voornaam>
+        <achternaam>Huysmans</achternaam>
+        <geboortedatum>1986-01-01</geboortedatum>
+    </naam>
+</namen>

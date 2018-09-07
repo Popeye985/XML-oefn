@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lokaal xmlns="http://www.betavzw.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.betavzw.org oef1.xsd">
+    <pc nr="1">
+        <cursist>Jos</cursist>
+        <cursist>Marie</cursist>
+    </pc>
+    <pc nr="2">
+        <cursist>Louis</cursist>
+        <cursist>Jefke</cursist>
+    </pc>
+    <pc nr="3">
+        <cursist>Ming Yoo Lee</cursist>
+    </pc>
+    <pc nr="4">
+    </pc>
+    <pc nr="5">
+        <cursist>Jean-Marie</cursist>
+        <cursist>Jean-Luc</cursist>
+    </pc>
+</lokaal>

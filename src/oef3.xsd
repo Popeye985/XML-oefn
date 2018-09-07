@@ -1,0 +1,44 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           xmlns="http://beta.ua.ac.be/boeken"
+           targetNamespace="http://beta.ua.ac.be/boeken">
+<xs:element name="boeken">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="boek" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="jaartal" type ="xs:gYear" default="2000">
+                            <xs:element name="beoordeling">
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="goed"/>
+                                    <xs:enumeration value="heel goed"/>
+                                    <xs:enumeration value="slecht"/>
+                                </xs:restriction>
+                            </xs:element>
+                        </xs:element>
+                        <xs:element name="titel">
+                            <xs:minLength value="1">
+                            </xs:minLength>
+                        </xs:element>
+                        <xs:element name="auteurs">
+                            <xs:minLength value="1">
+                            </xs:minLength>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="naam">
+                                        <xs:minLength value="1">
+                                        </xs:minLength>
+                                    </xs:element>
+                                    <xs:element name="geslacht" minOccurs="1">
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
